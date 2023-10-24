@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --main-color: #1F4172;
+    --second-color: #3876BF;
+    --third-color: #F1B4BB;
+    --fourth-color: #FDF0F0;
+}
+
+/*NAV BAR*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--fourth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    font-size: 1.15rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rowdies', sans-serif;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0rem;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.navbar a:hover {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.navbar a:active {
+    font-weight: bold;
+    color: var(--second-color);
+}
+
+.navbar a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--second-color);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.navbar li:hover a::after {
+    width: 100%;
+    transition: width 0.3s ease;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-top: 75px;
+}
+
+/*Banners*/
+
+#banner {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.profile-picture {
+    flex: 1;
+}
+
+.profile-picture img {
+    border-radius: 2rem;
+    width: 110%;
+}
+
+.profile-info {
+    flex: 1;
+    padding: 1.25rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    color: var(--main-color);
+    margin-left: 4rem;
+}
+
+.profile-info h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.6rem;
+    margin: 0;
+    line-height: 8rem;
+}
+
+.profile-info p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.view-projects-button {
+    background-color: var(--third-color);
+    color: var(--main-color);
+    /* Changed text color to white for better contrast */
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Added transitions for smooth hover effects */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    /* Added a subtle shadow */
+}
+
+.view-projects-button:hover {
+    background-color: #132043;
+    /* Change background color on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Enhance the shadow on hover */
+    color: var(--fourth-color);
+}
+
+/*ABOUT SECTION*/
+.about-container {
+    padding-top: 3.75rem;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-title {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.about-contents {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#about {
+    background-color: var(--fourth-color);
+    padding-top: 1rem;
+    padding-bottom: 4.75rem;
+}
+
+/*PROJECTS SECTION*/
+
+.projects-container {
+    padding-top: 5.5rem;
+}
+
+.projects-header {
+    padding-bottom: 3rem;
+}
+
+.projects-title {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.card-row-one {
+    padding-bottom: 3rem;
+}
+
+.card-item-1 {
+    /* overflow: hidden;
+    position: relative; */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 50%;
+    margin: auto 1.5rem auto auto;
+}
+
+.card-item-2 {
+    /* overflow: hidden;
+    position: relative; */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 50%;
+    margin: auto auto auto 1.5rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    flex-wrap: wrap;
+    padding: 20px;
+    align-self: normal;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card .card-img-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(50, 83, 246, 0.8);
+    color: #fff;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.card .card-title,
+.card .card-text {
+    display: none;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    display: block;
+}
+
+/*RESUME SECTION*/
+#resume {
+    padding-bottom: 3.25rem;
+}
+.resume-header {
+    text-align: center;
+}
+
+.resume-title {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--main-color);
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
+}
+
+.row-resume {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-8 {
+    width: 70%;
+    text-align: left;
+}
+
+.col-4 {
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.col-4 a {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+.col-4 a::before {
+    background: var(--fourth-color);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.col-4 a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    text-decoration: none;
+}
+
+.col-4 p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.col-8 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*CONTACT SECTION*/
+#contact {
+    background-color: var(--fourth-color);
+    padding: 50px 0;
+    margin-top: 2rem;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-title {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.contact-contents {
+    font-size: 18px;
+    color: var(--second-color);
+    font-family: 'Nunotori', sans-serif;
+}
+
+.contact-header ul {
+    padding: 0;
+    list-style-type: none;
+    color: var(--second-color);
+    font-family: 'Rowdies', sans-serif;
+}
+
+.contact-header li {
+    text-align: center;
+    padding-bottom: 4.25rem;
+    font-size: 2rem;
+}
+
+hr {
+    padding: 1.75rem;
+    border-top: 1px solid var(--third-color);
+}
