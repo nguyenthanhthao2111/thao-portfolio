@@ -88,7 +88,13 @@
 
 .profile-picture img {
     border-radius: 2rem;
-    width: 110%;
+    width: 100%;  /* Change width to 100% to ensure responsiveness */
+    transition: transform 0.3s;  /* Add transition for smooth effect */
+}
+
+.profile-picture img:hover {
+    transform: scale(1.1);  /* Apply scale transform on hover */
+    cursor: pointer;
 }
 
 .profile-info {
