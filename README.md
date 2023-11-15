@@ -15,8 +15,6 @@ _**Oct 2020 - Present**_
 
 Major: Information System
 
-GPA: 3.25/4.00
-
 
 _**Apr 2023 - Jun 2023**_
 
@@ -33,9 +31,12 @@ _**Jul 2023 - Present**_
 - **Programming Languages**: Java Core, JavaScript (Basic)
 - **Web Development**: HTML/CSS, Boostrap, ReactJS (Basic)
 - **Version Control**: Git/GitHub
-- **Tools**: Postman, Jira, Visual Paradigm, Figma
+- **Project Control**: Jira
+- **Tools**: Postman, Visual Paradigm, Figma
 - **Database**: MongoDB, MySQL
-- **Testing**: Manual Testing, Selenium, Testing API with Postman tool
+- **Testing**: 
+    Manual Testing: Able to analyse the SRS/FRS, create high-level testcase design, execute testcases and write bug reports, use Postman to test API and write test scripts 
+    Automation Testing: Selenium (in progress), RestAssured API (in progress)
 
 #### Soft Skills
 - Teamwork
@@ -44,40 +45,59 @@ _**Jul 2023 - Present**_
   
 ## Projects
 
-#### Tour Booking and Management System | University Course
+#### Tour Booking and Management System | School Project
 _Feb 2023 - May 2023_
 - Brief: An e-commerce website to book and manage tours in Vietnam, such as: view, book and checkout tour, manage user and tour, ...
 - Scale: 5
 - Techs: HTML/CSS, JavaScript, Boostrap, NodeJS, MongoDB
-- URL:
+- URL: 
 - Role: Tester/Front-end Developer
-- Tasks: Designed the UI of the website using Figma. Analysed and produced the SRS/User Stories documents. Constructed the front-end using HTML/CSS, Boostrap and JavaScript. Designed and executed test scenarios/test cases/RTM documents for features.
+- Tasks: 
+    Design the UI of the website using Figma
+    Analyse and produced the SRS/User Stories documents
+    Construct the front-end using HTML/CSS, Boostrap and JavaScript 
+    Design and executed test scenarios/test cases/RTM documents for features
 
-#### UI/UX Website Design Project | University Course
+#### UI/UX Website Design Project | School Project
 _Feb 2023 - May 2023_
 - Brief: An e-commerce website UI/UX design to book and manage fashion items
 - Scale: 2
 - Techs: Figma
-- URL:
+- URL: [Marganet Vintage](https://www.figma.com/proto/D27A1OtxHRpJWVZMm8nCZW/Marganet-Vintage?page-id=0%3A1&type=design&node-id=0-1&viewport=399%2C350%2C0.02&t=znO9QE7qZsAY3gzE-1&scaling=min-zoom&starting-point-node-id=606%3A3071&mode=design)
 - Role: Designer
-- Tasks: Designed prototypes for each features of the website utilizing Figma
+- Tasks: Design prototypes for each features of the website utilizing Figma
 
-### [Add more projects as needed]
+#### E-commerce Website | Personal Manual Testing Project
+_Oct 2023 - Nov 2023_
+- Brief: A personal project to practice manual testing on the E-commerce website OpenCart
+- Scale: 1
+- URL: (https://github.com/nguyenthanhthao2111/opencart-manual-testing)
+- Role: Tester
+- Tasks: 
+    Analyse the FRS, test plan document and design the test scenarios
+    Write the testcase design and testcase execution document
+    Write the RTM document and bug reports
+
+#### Students API Testing | Personal API Testing Project
+_Oct 2023 - Nov 2023_
+- Brief: A mini project testing students API using Postman tool
+- Scale: 1
+- URL: (https://github.com/nguyenthanhthao2111/students-api-testing)
+- Tech: Postman
+- Role: Tester
+- Tasks: Conduct the API testing on Postman and write the test script
 
 ## Honors & Awards
 
 _**2022**_:
-- Hanoi University Academic Encouragement Scholarship for student with excellent academic result (Spring 2022 semester)
-- Hanoi University Academic Encouragement Scholarship for student with excellent academic result (Fall 2022 semester)
+- Hanoi University Academic Encouragement Scholarship (Spring 2022 semester)
+- Hanoi University Academic Encouragement Scholarship (Fall 2022 semester)
 
 _**2023**_:
-- Hanoi University Academic Encouragement Scholarship for student with excellent academic result (Spring 2023 semester)
+- Hanoi University Academic Encouragement Scholarship (Spring 2023 semester)
 
 ## Contact
 
-Feel free to connect with me through the following channels:
-
-- LinkedIn: [Thao-Nguyen](https://www.linkedin.com/in/thao-nguyen-0bb21321b/)
-- Email: ntthao21112002@gmail.com
+Feel free to connect with me through my email: *ntthao21112002@gmail.com*
 
 Thank you for visiting my portfolio!
