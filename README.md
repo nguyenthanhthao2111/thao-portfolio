@@ -15,8 +15,6 @@ _**Oct 2020 - Present**_
 
 Major: Information System
 
-GPA: 3.25/4.00
-
 
 _**Apr 2023 - Jun 2023**_
 
