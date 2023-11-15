@@ -50,7 +50,7 @@ _Feb 2023 - May 2023_
 - Brief: An e-commerce website to book and manage tours in Vietnam, such as: view, book and checkout tour, manage user and tour, ...
 - Scale: 5
 - Techs: HTML/CSS, JavaScript, Boostrap, NodeJS, MongoDB
-- URL: 
+- URL: https://github.com/nguyenthanhthao2111/lor-travel
 - Role: Tester/Front-end Developer
 - Tasks: 
     Design the UI of the website using Figma
@@ -71,7 +71,7 @@ _Feb 2023 - May 2023_
 _Oct 2023 - Nov 2023_
 - Brief: A personal project to practice manual testing on the E-commerce website OpenCart
 - Scale: 1
-- URL: (https://github.com/nguyenthanhthao2111/opencart-manual-testing)
+- URL: https://github.com/nguyenthanhthao2111/opencart-manual-testing
 - Role: Tester
 - Tasks: 
     Analyse the FRS, test plan document and design the test scenarios
@@ -82,7 +82,7 @@ _Oct 2023 - Nov 2023_
 _Oct 2023 - Nov 2023_
 - Brief: A mini project testing students API using Postman tool
 - Scale: 1
-- URL: (https://github.com/nguyenthanhthao2111/students-api-testing)
+- URL: https://github.com/nguyenthanhthao2111/students-api-testing
 - Tech: Postman
 - Role: Tester
 - Tasks: Conduct the API testing on Postman and write the test script
