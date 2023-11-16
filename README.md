@@ -1,6 +1,6 @@
 # Thao Nguyen's Portfolio
 
-Welcome to my portfolio! This repository showcases the work and projects I've completed in university's courses and personal practicing. Feel free to check out my portfolio or click [here](https://github.com/nguyenthanhthao2111/thao-portfolio) to view my personal website
+Welcome to my portfolio! This repository showcases the work and projects I've completed in university's courses and personal practicing. Feel free to check out my portfolio or click [here](https://nguyenthanhthao2111.github.io/thao-portfolio/) to view my personal website
 
 ## About Me
 I'm Thao Nguyen, a senior student at Hanoi University with a passion for software testing and quality assurance. I am currently seeking a tester internship opportunity to kickstart my professional development.
