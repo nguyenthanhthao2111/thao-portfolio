@@ -51,7 +51,7 @@ _Feb 2023 - May 2023_
 - Scale: 5
 - Techs: HTML/CSS, JavaScript, Boostrap, NodeJS, MongoDB
 - URL: https://github.com/nguyenthanhthao2111/lor-travel
-- Role: Tester/Front-end Developer
+- Role: Tester, Front-end Developer
 - Tasks: Design the UI of the website using Figma. Analyse and produced the SRS/User Stories documents. Construct the front-end using HTML/CSS, Boostrap and JavaScript. Design and executed test scenarios/test cases/RTM documents for features
 
 #### UI/UX Website Design Project | School Project
@@ -72,7 +72,7 @@ _Oct 2023 - Nov 2023_
 - Tasks: Analyse the FRS, test plan document and design the test scenarios. Write the testcase design and testcase execution document. Write the RTM document and bug reports
 
 #### Students API Testing | Personal API Testing Project
-_Oct 2023 - Nov 2023_
+_Nov 2023_
 - Brief: A mini project testing students API using Postman tool
 - Scale: 1
 - URL: https://github.com/nguyenthanhthao2111/students-api-testing
@@ -91,6 +91,6 @@ _**2023**_:
 
 ## Contact
 
-Feel free to connect with me through my email: *ntthao21112002@gmail.com*
+Feel free to connect with me through my email: **ntthao21112002@gmail.com**
 
 Thank you for visiting my portfolio!
