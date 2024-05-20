@@ -28,15 +28,15 @@ _**Jul 2023 - Present**_
 ## Skills
 
 #### Tech Skills
-- **Programming Languages**: Java Core, JavaScript (Basic)
-- **Web Development**: HTML/CSS, Boostrap, ReactJS (Basic)
+- **Programming Languages**: Java Core
+- **Web Development**: HTML/CSS, Boostrap
 - **Version Control**: Git/GitHub
 - **Project Control**: Jira
-- **Tools**: Postman, Visual Paradigm, Figma
-- **Database**: MongoDB, MySQL
+- **Tools**: Postman, Figma, Confluence, Bitbucket, DBeaver, ...
+- **Database**: MySQL
 - **Testing**: 
     Manual Testing: Able to analyse the SRS/FRS, create high-level testcase design, execute testcases and write bug reports, use Postman to test API and write test scripts 
-    Automation Testing: Selenium (in progress), RestAssured API (in progress)
+    Automation Testing: Selenium (in progress), RestAssured API
 
 #### Soft Skills
 - Teamwork
